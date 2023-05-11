@@ -11,12 +11,12 @@ This project performs analysis on a dataset consisting of 62,766 rows and 49 col
 
 # Results and Insights
 
-The dataset was cleaned and preprocessed before being used for machine learning analysis. The cleaning process involved removing duplicate and irrelevant data, filling in missing values, and converting categorical data into numerical data.
-Our analysis showed that the most important features for predicting car prices were mileage, power, and age of the car. The best performing model was a random forest with an accuracy of 80%. We also discovered some interesting insights, such as the fact that diesel cars tend to have higher CO2 emissions than gasoline cars, and that cars with full service history are more expensive than those without it.
+The dataset was cleaned and preprocessed before being used for machine learning analysis. The cleaning process involved removing duplicate and irrelevant data, filling in missing values, and converting some categorical data into numerical data. By using linear regression and independent variables, automobile price value estimation was made. The price value was estimated using "mileage" and power data.
 
 # Future Work
 
 There are several directions for future work on this project, such as:
-Adding more data sources to enrich the dataset
-Trying other machine learning algorithms and hyperparameter tuning techniques
-Applying the models to real-world scenarios, such as car valuation or demand forecasting
+
+1- Adding more data sources to enrich the dataset.
+2- Trying other machine learning algorithms and hyperparameter tuning techniques.
+3- Applying the models to real-world scenarios, such as car valuation or demand forecasting.
